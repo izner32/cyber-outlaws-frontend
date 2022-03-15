@@ -188,7 +188,7 @@ function Main():JSX.Element {
         .filter((f) => f.active === true)
         .sort((a, b) => (a.pos > b.pos ? 1 : b.pos > a.pos ? -1 : 0))
         .map((card, index) => (
-          <div className={`mx-auto relative transition ease-in-out delay-1000 ${card.center ? " hover:scale-110" : ""}`}>
+          <div className={`mx-auto relative transition ease-in-out delay-50 ${card.center ? " hover:scale-110" : ""}`}>
             <button onClick={()=>handleCardClick(card.idx)}>
               <Image
                 src = {card.image}
