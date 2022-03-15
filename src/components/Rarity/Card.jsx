@@ -17,7 +17,7 @@ function getRarity (trait) {
   }
 }
 
-function Card(props):JSX.Element {
+function Card(props) {
   const router = useRouter();
 
   return (

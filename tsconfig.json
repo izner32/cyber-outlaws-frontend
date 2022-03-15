@@ -23,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "src/components/Mint/Mint.jsx", "redux/blockchain/blockchainActions.jsx", "redux/blockchain/blockchainReducer.jsx", "redux/data/dataActions.jsx", "redux/data/dataReducer.jsx", "redux/store.jsx"  ],
+, "src/components/Mint/Mint.jsx", "redux/blockchain/blockchainActions.jsx", "redux/blockchain/blockchainReducer.jsx", "redux/data/dataActions.jsx", "redux/data/dataReducer.jsx", "redux/store.jsx", "src/components/Rarity/Card.jsx"  ],
   "exclude": [
     "node_modules"
   ]
