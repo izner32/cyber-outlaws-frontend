@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { useEffect, useState } from "react";
-import { Transition, TransitionRoot } from "@headlessui/react";
+import { Transition } from "@headlessui/react";
 import { filterProps } from 'framer-motion';
 
 function Main():JSX.Element {
