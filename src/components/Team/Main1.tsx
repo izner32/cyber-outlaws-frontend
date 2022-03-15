@@ -14,7 +14,7 @@ function Main():JSX.Element {
       name: "The Dream",
       role: "Core & Marketing Lead",
       bio: "He is a crypto enthusiast, been in this space for a few years now. He spends most of his time trading, and flipping nfts.",
-      image: "/pfp_1.png",
+      image: "/pfp1.png",
       clicked: false
     },
     {
@@ -25,7 +25,7 @@ function Main():JSX.Element {
       name: "Passion",
       role: "Core & Lead Developer",
       bio: "He is a self-taught web developer, extremely interested in tech mostly in data engineering, and algorithmic trading.",
-      image: "/pfp_2.png",
+      image: "/pfp2.png",
       clicked: false
     },
     {
@@ -36,7 +36,7 @@ function Main():JSX.Element {
       name: "Envy",
       role: "Core & Community Mngr",
       bio: "He is a graphic designer. He manages the community, and actively handles the team's social media accounts.",
-      image: "/pfp_3.png",
+      image: "/pfp3.png",
       clicked: false
     },
     {
@@ -47,7 +47,7 @@ function Main():JSX.Element {
       name: "Dunce",
       role: "Team & Creative Artist",
       bio: "He is a thinker, and a man with a huge variety of imagination. He is massively passionate about all things related to art.",
-      image: "/pfp_4.png",
+      image: "/pfp4.png",
       clicked: false
     },
     {
@@ -58,7 +58,7 @@ function Main():JSX.Element {
       name: "Pukuluku",
       role: "Team & Creative Artist",
       bio: "His specialization lies in manipulating art digitally while extensively using different modern art techniques.",
-      image: "/pfp_5.png",
+      image: "/pfp5.png",
       clicked: false
     },
     {
@@ -69,7 +69,7 @@ function Main():JSX.Element {
       name: "Gelca",
       role: "Team & Creative Artist",
       bio: "She is a lifelong learner. She has experience with multiple difficult domains not limited to programming and digital arts.",
-      image: "/pfp_6.png",
+      image: "/pfp6.png",
       clicked: false
     },
   ]
