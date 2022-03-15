@@ -1,0 +1,156 @@
+[
+  {
+    "trait": "Crazy",
+    "weight": "20",
+    "occurrence": "60.00",
+    "rarity": "COMMON"
+  },
+  { "trait": "Joy", "weight": "20", "occurrence": "40.00", "rarity": "COMMON" },
+  {
+    "trait": "FemaleBase1",
+    "weight": "16",
+    "occurrence": "20.00",
+    "rarity": "COMMON"
+  },
+  {
+    "trait": "FemaleBase2",
+    "weight": "16",
+    "occurrence": "35.00",
+    "rarity": "COMMON"
+  },
+  {
+    "trait": "FemaleBase3",
+    "weight": "16",
+    "occurrence": "5.00",
+    "rarity": "COMMON"
+  },
+  {
+    "trait": "MaleBase1",
+    "weight": "16",
+    "occurrence": "15.00",
+    "rarity": "COMMON"
+  },
+  {
+    "trait": "MaleBase2",
+    "weight": "16",
+    "occurrence": "20.00",
+    "rarity": "COMMON"
+  },
+  {
+    "trait": "MaleBase3",
+    "weight": "16",
+    "occurrence": "5.00",
+    "rarity": "COMMON"
+  },
+  {
+    "trait": "Crazy",
+    "weight": "20",
+    "occurrence": "45.00",
+    "rarity": "COMMON"
+  },
+  { "trait": "Joy", "weight": "20", "occurrence": "55.00", "rarity": "COMMON" },
+  {
+    "trait": "Crazy",
+    "weight": "20",
+    "occurrence": "55.00",
+    "rarity": "COMMON"
+  },
+  { "trait": "Joy", "weight": "20", "occurrence": "45.00", "rarity": "COMMON" },
+  {
+    "trait": "Crazy",
+    "weight": "20",
+    "occurrence": "55.00",
+    "rarity": "COMMON"
+  },
+  { "trait": "Joy", "weight": "20", "occurrence": "45.00", "rarity": "COMMON" },
+  {
+    "trait": "Crazy",
+    "weight": "20",
+    "occurrence": "5.00",
+    "rarity": "COMMON"
+  },
+  { "trait": "Joy", "weight": "20", "occurrence": "20.00", "rarity": "COMMON" },
+  {
+    "trait": "Natural",
+    "weight": "20",
+    "occurrence": "20.00",
+    "rarity": "COMMON"
+  },
+  {
+    "trait": "Open",
+    "weight": "20",
+    "occurrence": "25.00",
+    "rarity": "COMMON"
+  },
+  {
+    "trait": "Unsure",
+    "weight": "20",
+    "occurrence": "30.00",
+    "rarity": "COMMON"
+  },
+  {
+    "trait": "Crazy",
+    "weight": "20",
+    "occurrence": "50.00",
+    "rarity": "COMMON"
+  },
+  { "trait": "Joy", "weight": "20", "occurrence": "50.00", "rarity": "COMMON" },
+  {
+    "trait": "Crazy",
+    "weight": "20",
+    "occurrence": "50.00",
+    "rarity": "COMMON"
+  },
+  { "trait": "Joy", "weight": "20", "occurrence": "50.00", "rarity": "COMMON" },
+  {
+    "trait": "Crazy",
+    "weight": "20",
+    "occurrence": "60.00",
+    "rarity": "COMMON"
+  },
+  { "trait": "Joy", "weight": "20", "occurrence": "40.00", "rarity": "COMMON" },
+  {
+    "trait": "Crazy",
+    "weight": "20",
+    "occurrence": "65.00",
+    "rarity": "COMMON"
+  },
+  { "trait": "Joy", "weight": "20", "occurrence": "35.00", "rarity": "COMMON" },
+  {
+    "trait": "Hair1",
+    "weight": "20",
+    "occurrence": "10.00",
+    "rarity": "COMMON"
+  },
+  {
+    "trait": "Hair2",
+    "weight": "20",
+    "occurrence": "35.00",
+    "rarity": "COMMON"
+  },
+  {
+    "trait": "Hair3",
+    "weight": "20",
+    "occurrence": "30.00",
+    "rarity": "COMMON"
+  },
+  {
+    "trait": "Hair4",
+    "weight": "20",
+    "occurrence": "10.00",
+    "rarity": "COMMON"
+  },
+  {
+    "trait": "Hair5",
+    "weight": "20",
+    "occurrence": "15.00",
+    "rarity": "COMMON"
+  },
+  {
+    "trait": "Crazy",
+    "weight": "20",
+    "occurrence": "35.00",
+    "rarity": "COMMON"
+  },
+  { "trait": "Joy", "weight": "20", "occurrence": "65.00", "rarity": "COMMON" }
+]

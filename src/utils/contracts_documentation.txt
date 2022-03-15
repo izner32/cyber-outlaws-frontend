@@ -1,0 +1,61 @@
+public(everyone's access to our smart contract)
+    functions 
+        mint(uint256 _mintAmount): allows a user to mint their own nft 
+        isWhitelisted(address _user): determines whether a user is whitelisted or not 
+        walletOfOwner(address _owner): determines the nft token ids currently held by the specified address
+        tokenUri(uint256 _tokenId): returns an ipfs link which contains the metadata of the specified token id 
+    default functions (don't mind these, these are defaults whenever you create a contract)
+        balanceOf: returns the amount of nft held by a user 
+        getApproved
+        isApprovedForAll: tells whether the address is approved the contract owner to transfer their nft to different wallet address 
+        name: returns the name of the nft project 
+        owner: returns the address of the current owner of contract 
+        ownerOf: determines which address wallet contains the specified token id of an nft 
+        supportsInterface: not important 
+        symbol: returns the symbol of the nft project 
+        tokenByIndex: returns the token id of an nft of the function caller that is stored at the specified index 
+        tokenOfOwnerByIndex: returns the token id of an nft of the specified address that is stored at the specified index 
+        totalSupply: return the current supply minted 
+    variables 
+        baseUri: ipfs of the whole collection | DEFAULT: {specified by deployer/owner of contract}
+        baseExtension: extension of the base uri | DEFAULT: ."json"
+        notRevealedUri: returns a uri which contains a metadata message, only used when someone called tokenUri | DEFAULT: {specified by deployer/owner of contract}
+        whitelistCost: payment for whitelist minting | DEFAULT: {specified by deployer/owner of contract}
+        cost: payment for public minting | DEFAULT: {specified by deployer/owner of contract} 
+        maxSupply: maximum amount of nft | DEFAULT: 7777
+        maxMintAmount: maximum mint amount per transaction | DEFAULT: 20
+        whitelistNftPerAddressLimit: maximum nft per address during whitelist | DEFAULT: 2
+        nftPerAddressLimit: maximum nft per address during public sale | DEFAULT: 200
+        paused: returns boolean, if true - disallow any user to mint, if fale - allow any user to mint | DEFAULT: false 
+        revealed: returns boolean, if false - calling the tokenUri would return a hidden metadata, if true - the token uri would return the metadata of the token id specified | DEFAULT: true 
+        onlyWhitelisted: returns boolean, if true - allow only minting for whitelisted users | DEFAULT: true
+        whitelistedAddresses: returns the list of whitelisted addresses | DEFAULT: {specified by deployer/owner of contract}
+        addressMintedBalance: returns the amount of mint done by a user 
+only owner(only valid to the account address that deployed the contract)
+    functions (implemented features)
+        mintTo: mint for other people
+        withdraw: transfer matic balance gained from mint to the contract deployer's address 
+    default functions (don't mind these, these are defaults whenever you inherit from openzeppelin's ownable )
+        approve: approves another user to call the transferFrom or safeTransferFrom which is used to transfer their nft to different wallet address 
+        renounceOwnership: renounces ownership meaning the deployer's account cannot execute function with onlyOwner function modifier (this includes withdraw) | NEVER CLICK THIS NO MATTER WHAT 
+        transferFrom: transfer an nft from a certain holder to the specified holder, if the executor of this function is not the holder itself it needs to be approved by the owner of contract first 
+        transferOwnership: transfer ownership for the contract 
+        setApprovalForAll: approves everyone to call the transferFrom or safeTransferFrom which is used to transfer their nft to different wallet address 
+        safeTransferFrom:  transfer an nft from a certain holder to the specified holder, executor of this function must only be the holder of that nft itself 
+    functions for modifying variables: modifies the value of public variables 
+        setBaseURI: set ipfs uri where the whole collection resides 
+        setBaseExtension: set extension of base uri 
+        setNotRevealedURI: set the uri for when you don't want the user to see the token uri 
+        setWhitelistCost: set minting whitelist cost 
+        setCost: set minting public cost 
+        setMaxSupply: set maximum supply 
+        setMaxMintAmount: set maximum mint amount at a single transaction 
+        setWhitelistNftPerAddressLimit: set nft per address limit during whitelist sale 
+        setNftPerAddressLimit: set nft per address limit during public sale 
+        pause: set to pause minting or not 
+        reveal: set to reveal the real token uri when a user asks
+        setOnlyWhitelisted: set whether to active whitelist sale or not 
+        whitelistUsers: add whitelist users in the form of array 
+
+test cases to perform 
+    - check the functionality of each function if they are working as expected and if only owner function can only be executed by the owner 
