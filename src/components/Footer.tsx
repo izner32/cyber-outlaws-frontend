@@ -13,7 +13,7 @@ function Footer():JSX.Element {
         <section className="max-w-[1300px] bg-black w-[80%] sm:w-[90%] mx-auto text-white pt-[180px] sm:pt-[90px] ">
           <div className="relative z-50">
             <h1 className="text-center text-gold-500 text-ReadexPro font-bold text-[36px] sm:text-[26px] mb-[30px]">CYBER OUTLAWS NFT</h1>
-            <div className="sm:text-[13px] text-Barlow font-medium flex gap-x-[66px] sm:gap-x-[33px] justify-center">
+            <div className="sm:text-[9px] text-Barlow font-medium flex gap-x-[66px] sm:gap-x-[33px] justify-center">
               <div>
                 <h1 className="mb-[28px] sm:mb-[14px] hover:text-gray-400"><button className="cursor-zero" onClick={() => router.push('/')}>HOME</button></h1>
                 <ul className="text-gray-400">

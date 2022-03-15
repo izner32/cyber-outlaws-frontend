@@ -176,8 +176,8 @@ function Main():JSX.Element {
 
   return (
     <>
-      <section className="bg-white relative h-screen">
-        <div className="leading-none">
+      <section className="bg-white relative h-screen overflow-hidden">
+        <div className="leading-none ">
           <span className="animate-marquee text-[200px] absolute -top-0 font-Anton z-[1] leading-none px-12">CYBER&nbsp;OUTLAWS</span>
           <span className="animate-marquee2 text-[200px] absolute -top-0 font-Anton z-[1] leading-none px-12">CYBER&nbsp;OUTLAWS</span>
         </div>
