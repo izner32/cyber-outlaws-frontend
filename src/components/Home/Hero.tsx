@@ -9,7 +9,7 @@ function Hero():JSX.Element {
     <>
       <section id="hero" className="bg-black pb-[140px] ">
         <Fade big>
-          <div className="max-w-[1300px] flex md:flex-col-reverse gap-x-[130px] lg:gap-x-[60px] w-[80%] mx-auto pt-[115px]">
+          <div className="max-w-[1300px] flex md:flex-col-reverse gap-x-[130px] lg:gap-x-[60px] w-[80%] mx-auto pt-[115px] sm:pt-[50px]">
             <div className="flex flex-col w-[50%] md:w-full md:mt-[40px] md:text-center">
               <div className="">
                 <h1 className="text-gold font-ReadexPro font-semibold text-[88px] md:leading-none xl:text-[50px]">Ascendancy<br></br>of&nbsp;outlaws</h1>
@@ -20,20 +20,9 @@ function Hero():JSX.Element {
                 <button className="text-gold-500 rounded-full bg-zinc-800 px-[92px] lg:px-[40px] py-[20px] lg:py-[10px] font-bold hover:bg-zinc-600 cursor-zero" onClick={() => router.push('/team')}>TEAM</button>
               </div>
             </div>
-            <div className="relative w-full h-auto">
-                {/* <Image
-                  src = "/betty_hero.png"
-                  layout = "fill"
-                  className="bg-white relative w-full md:w-[75%] h-full md:h-[300px] -top-20 z-20 mx-auto "
-                  // style={{  
-                  //   backgroundImage: "url(" + "/betty_hero.png" + ")",
-                  //   backgroundPosition: 'center',
-                  //   backgroundSize: 'cover',
-                  //   backgroundRepeat: 'no-repeat'
-                  // }}
-                ></Image> */}
+            <div className="relative w-full h-auto ">
                 <div 
-                  className="bg-white relative w-full md:w-[75%] h-full md:h-[300px] -top-10 z-20 mx-auto "
+                  className="bg-white relative w-full md:w-[75%] h-full md:h-[300px]  z-20 mx-auto rounded-xl "
                   style={{  
                     backgroundImage: "url(" + "/betty_hero.png" + ")",
                     backgroundPosition: 'center',
@@ -41,7 +30,7 @@ function Hero():JSX.Element {
                     backgroundRepeat: 'no-repeat'
                   }}>
                 </div>
-              <div className="bg-gold-500 w-full md:w-[75%] h-full md:h-[300px] absolute bottom-0 left-10 md:-right-16 md:left-0 mx-auto "></div>
+              {/* <div className="bg-gold-500 w-full md:w-[75%] h-full md:h-[300px] absolute bottom-0 left-10 md:-right-16 md:left-0 mx-auto "></div> */}
             </div>
           </div>
         </Fade>

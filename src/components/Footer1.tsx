@@ -8,7 +8,7 @@ function Footer():JSX.Element {
   
   return (
     <>
-      <footer className="max-w-[1300px] bg-white h-screen sticky top-100 z-[3000] lg:z-0 mx-auto flex items-center">
+      <footer className="max-w-[1300px] bg-white h-[700px] sticky top-100 z-[3000] lg:z-0 mx-auto flex items-center">
         <Fade>
         <div className="flex gap-x-20 mx-auto w-[80%] lg:w-[90%] ">
             <div className="lg:hidden">

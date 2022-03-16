@@ -71,8 +71,8 @@ const Nav = () => {
       </header>
 
       {/* mobile content goes here */}
-      <div className={`${!show?"hidden":"z-[300] h-screen w-screen"}  top-0 left-0  lg:block hidden fixed `}>
-        <div className={`${!show?"hidden":"lg:block"} ease-in duration-300 md:pt-[50px] pt-[100px] py-4 bg-gold-500 absolute h-full w-full`}>
+      <div className={`${!show?"hidden":"z-[300] h-full w-full"}  top-0 left-0  lg:block hidden fixed overflow-y-scroll bg-gold-500`}>
+        <div className={`${!show?"hidden":"lg:block"} ease-in duration-300 md:pt-[50px] pt-[100px] py-4  absolute h-full w-full`}>
           <ul className="pt-[100px] font-ReadexPro font-bold  w-[90%] mx-auto text-[48px] ">
             <li className="" onClick={() => router.push('/')}><button className={`${router.pathname == "/" ? "text-white" : ""} cursor-zero`}>HOME</button></li>
             <li className="" onClick={() => router.push('/team')}><button className={`${router.pathname == "/team" ? "text-white" : ""} cursor-zero`}>TEAM</button></li>

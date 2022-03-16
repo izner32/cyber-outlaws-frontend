@@ -176,19 +176,19 @@ function Main():JSX.Element {
 
   return (
     <>
-      <section className="bg-white relative h-screen overflow-hidden">
-        <div className="leading-none ">
+      <section className="bg-white relative  h-full max-w-[1300px] mx-auto overflow-hidden">
+        <div className="leading-none relative">
           <span className="animate-marquee text-[200px] absolute -top-0 font-Anton z-[1] leading-none px-12">CYBER&nbsp;OUTLAWS</span>
           <span className="animate-marquee2 text-[200px] absolute -top-0 font-Anton z-[1] leading-none px-12">CYBER&nbsp;OUTLAWS</span>
         </div>
 
         {/* team */}
-        <div className="flex gap-x-16 absolute z-[2]  w-full top-20 ">
+        <div className="flex justify-center gap-x-16 relative z-[2]  w-full top-20 sm:px-12 mb-36">
         {cards
         .filter((f) => f.active === true)
         .sort((a, b) => (a.pos > b.pos ? 1 : b.pos > a.pos ? -1 : 0))
         .map((card, index) => (
-          <div className={`mx-auto relative transition ease-in-out delay-50 ${card.center ? " hover:scale-110" : ""}`}>
+          <div className={`mx-auto relative transition ease-in-out delay-50 ${card.center ? " hover:scale-110" : "sm:hidden"}`}>
             <button onClick={()=>handleCardClick(card.idx)}>
               <Image
                 src = {card.image}
@@ -224,8 +224,8 @@ function Main():JSX.Element {
         </div>
 
         {/* button sliders */}
-          <button onClick={handleLeftClick} className="rounded-full w-16 h-16 bg-white md:bg-black flex justify-center items-center fixed left-10 top-[45%] z-[3]"><span className=" leading-[none] text-3xl font-extrabold align-text-top md:text-white">&lt;</span></button>
-          <button onClick={handleRightClick} className="rounded-full w-16 h-16 bg-white md:bg-black flex justify-center items-center fixed right-10 top-[45%] z-[3]"><span className=" leading-none text-3xl font-extrabold align-text-top md:text-white">&gt;</span></button>
+          <button onClick={handleLeftClick} className="rounded-full w-16 h-16 sm:w-14 sm:h-14 bg-white md:bg-black flex justify-center items-center fixed left-10 sm:left-5 top-[45%] z-[3]"><span className=" leading-[none] text-3xl font-extrabold align-text-top md:text-white">&lt;</span></button>
+          <button onClick={handleRightClick} className="rounded-full w-16 h-16 sm:w-14 sm:h-14 bg-white md:bg-black flex justify-center items-center fixed right-10 sm:right-5 top-[45%] z-[3]"><span className=" leading-none text-3xl font-extrabold align-text-top md:text-white">&gt;</span></button>
       </section>
     </>
   )
