@@ -10,7 +10,7 @@ function Custom404():JSX.Element {
         <title>Page not found | Cyber Outlaws NFT</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
-      <section className="w-full h-screen bg-black">
+      <section className="w-full min-h-screen h-full  bg-black flex justify-center items-center">
           <div className="flex flex-col my-auto justify-center items-center text-white text-center py-[50px]">
             <div 
                 className="h-[300px] w-[250px] mb-[50px]"
