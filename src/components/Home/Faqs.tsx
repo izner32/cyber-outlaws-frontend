@@ -83,7 +83,7 @@ function Faqs():JSX.Element {
                 </div>
             </section>
             <div 
-                  className="h-[500px] w-48 absolute right-10 sm:right-0 top-20"
+                  className="h-[500px] w-48 absolute right-10 sm:right-0 sm:hidden top-20"
                   style={{  
                     backgroundImage: "url(" + "/standing_char.png" + ")",
                     backgroundPosition: 'center',

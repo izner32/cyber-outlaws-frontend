@@ -27,7 +27,7 @@ function Footer():JSX.Element {
                 </div>
                 <div className="border-t-[1px] border-gray-500 mb-[30px] sm:mb-[15px]"></div>
                 <div>
-                    <ul className="lg:text-sm flex font-bold justify-between">
+                    <ul className="lg:text-sm flex flex-wrap font-bold gap-x-12 gap-y-4 justify-center">
                         <li><button className="cursor-zero font-bold" onClick={() => router.push('/')}>Home</button></li>
                         <li><button className="cursor-zero font-bold" onClick={() => router.push('/team')}>Team</button></li>
                         <li><button className="cursor-zero font-bold" onClick={() => router.push('/roadmap')}>Roadmap</button></li>
