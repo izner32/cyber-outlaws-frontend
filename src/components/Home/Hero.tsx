@@ -13,7 +13,7 @@ function Hero():JSX.Element {
             <div className="flex flex-col w-[50%] md:w-full md:mt-[40px] md:text-center">
               <div className="">
                 <h1 className="text-gold font-ReadexPro font-semibold text-[88px] md:leading-none xl:text-[50px]">Ascendancy<br></br>of&nbsp;outlaws</h1>
-                <p className="text-white font-ReadexPro font-bold text-[24px] lg:text-[16px] mt-[24px] sm:mt-[12px] opacity-[80%]">Collection of 7777 outlaws ruling the cyber space.</p>
+                <p className="text-white font-ReadexPro font-bold text-[24px] lg:text-[16px] mt-[24px] sm:mt-[12px] opacity-[80%]">Collection of 4000 outlaws ruling the cyber space.</p>
               </div>
               <div className="flex md:flex-col md:gap-y-6 gap-x-[15px] font-ReadexPro text-[18px] mt-[48px] sm:mt-[24px] md:justify-center">
                 <button className="rounded-full bg-gold-500 px-[92px] lg:px-[40px] py-[20px]  lg:py-[10px] font-bold hover:bg-gold-300 cursor-zero" onClick={() => router.push('/roadmap')}>ROADMAP</button>

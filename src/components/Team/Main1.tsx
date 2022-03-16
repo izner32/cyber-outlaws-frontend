@@ -224,8 +224,8 @@ function Main():JSX.Element {
         </div>
 
         {/* button sliders */}
-          <button onClick={handleLeftClick} className="rounded-full w-16 h-16 sm:w-14 sm:h-14 bg-white md:bg-black flex justify-center items-center fixed left-10 sm:left-5 top-[45%] z-[3]"><span className=" leading-[none] text-3xl font-extrabold align-text-top md:text-white">&lt;</span></button>
-          <button onClick={handleRightClick} className="rounded-full w-16 h-16 sm:w-14 sm:h-14 bg-white md:bg-black flex justify-center items-center fixed right-10 sm:right-5 top-[45%] z-[3]"><span className=" leading-none text-3xl font-extrabold align-text-top md:text-white">&gt;</span></button>
+          <button onClick={handleRightClick} className="rounded-full w-16 h-16 sm:w-14 sm:h-14 bg-white md:bg-black flex justify-center items-center fixed left-10 sm:left-5 top-[45%] z-[3]"><span className=" leading-[none] text-3xl font-extrabold align-text-top md:text-white">&lt;</span></button>
+          <button onClick={handleLeftClick} className="rounded-full w-16 h-16 sm:w-14 sm:h-14 bg-white md:bg-black flex justify-center items-center fixed right-10 sm:right-5 top-[45%] z-[3]"><span className=" leading-none text-3xl font-extrabold align-text-top md:text-white">&gt;</span></button>
       </section>
     </>
   )

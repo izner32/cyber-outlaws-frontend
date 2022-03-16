@@ -24,7 +24,7 @@ function Faqs():JSX.Element {
                     <div className="md:w-full w-1/2 px-4  pt-2">
                     <details className="mb-4">
                         <summary className="font-semibold  bg-gold-500 rounded-md py-2 px-4">
-                        Is this on ethereum?
+                        What blockchain is cyber outlaws on?
                         </summary>
 
                         <div className="text-white mt-4 relative md:w-[80%] sm:w-full">

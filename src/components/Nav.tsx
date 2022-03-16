@@ -120,7 +120,7 @@ const HomeItem = ({ text }) => {
                     Cyber Outlaws NFT
                   </p>
                   <div className="font-bold text-white group-hover:text-blue-400 text-sm">
-                    Collection of 7777 outlaws ruling the cyber space.
+                    Collection of 4000 outlaws ruling the cyber space.
                   </div>
                 </div>
               </div>
