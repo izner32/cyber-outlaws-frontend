@@ -22,7 +22,7 @@ function Faqs():JSX.Element {
                 </div>
                 <div className="flex flex-wrap  lg:mx-auto lg:mb-2 -mx-2 ">
                     <div className="md:w-full w-1/2 px-4  pt-2">
-                    <details className="mb-4">
+                    <details className="mb-4 hover:cursor-zero">
                         <summary className="font-semibold  bg-gold-500 rounded-md py-2 px-4">
                         What blockchain is cyber outlaws on?
                         </summary>
@@ -31,7 +31,7 @@ function Faqs():JSX.Element {
                         Cyber outlaws would be available on Polygon - layer 2 scaling solution for the ethereum blockchain
                         </div>
                     </details>
-                    <details className="mb-4">
+                    <details className="mb-4 hover:cursor-zero">
                         <summary className="font-semibold  bg-gold-500 rounded-md py-2 px-4">
                         When is the mint date?
                         </summary>
@@ -40,7 +40,7 @@ function Faqs():JSX.Element {
                         TBA.
                         </div>
                     </details>
-                    <details className="mb-2">
+                    <details className="mb-2 hover:cursor-zero">
                         <summary className="font-semibold  bg-gold-500 rounded-md py-2 px-4">
                         What is the mint price?
                         </summary>
@@ -51,7 +51,7 @@ function Faqs():JSX.Element {
                     </details>
                     </div>
                     <div className="md:w-full w-1/2  px-4 pt-2">
-                    <details className="mb-4">
+                    <details className="mb-4 hover:cursor-zero">
                         <summary className="font-semibold  bg-gold-500 rounded-md py-2 px-4">
                         Whitelist benefits? What are they?
                         </summary>
@@ -60,7 +60,7 @@ function Faqs():JSX.Element {
                         Early Access. Cheaper Mint Price. 
                         </div>
                     </details>
-                    <details className="mb-4">
+                    <details className="mb-4 hover:cursor-zero">
                         <summary className="font-semibold  bg-gold-500 rounded-md py-2 px-4">
                         How about for OG benefits?
                         </summary>
@@ -69,7 +69,7 @@ function Faqs():JSX.Element {
                         See how cheap the mint price for whitelisters is? It's even more cheaper when you're an OG + don't forget the early access perk.
                         </div>
                     </details>
-                    <details className="mb-4">
+                    <details className="mb-4 hover:cursor-zero">
                         <summary className="font-semibold  bg-gold-500 rounded-md py-2 px-4">
                         Perks for the holders?
                         </summary>

@@ -176,14 +176,14 @@ function Main():JSX.Element {
 
   return (
     <>
-      <section className="bg-white relative  h-full max-w-[1300px] mx-auto overflow-hidden">
-        <div className="leading-none relative">
-          <span className="animate-marquee text-[200px] absolute -top-0 font-Anton z-[1] leading-none px-12">CYBER&nbsp;OUTLAWS</span>
-          <span className="animate-marquee2 text-[200px] absolute -top-0 font-Anton z-[1] leading-none px-12">CYBER&nbsp;OUTLAWS</span>
+      <section className="bg-white relative  h-full  mx-auto overflow-hidden">
+        <div className="leading-none relative max-w-[1500px] mx-auto">
+          <span className="animate-marquee text-[200px] absolute -top-0 font-Anton z-1 leading-none px-12">CYBER&nbsp;OUTLAWS</span>
+          <span className="animate-marquee2 text-[200px] absolute -top-0 font-Anton z-1 leading-none px-12">CYBER&nbsp;OUTLAWS</span>
         </div>
 
         {/* team */}
-        <div className="flex justify-center gap-x-16 relative z-[2]  w-full top-20 sm:px-12 mb-36">
+        <div className="max-w-[1300px] mx-auto flex justify-center gap-x-16 relative z-[2]  w-full top-20 sm:px-12 mb-36">
         {cards
         .filter((f) => f.active === true)
         .sort((a, b) => (a.pos > b.pos ? 1 : b.pos > a.pos ? -1 : 0))
