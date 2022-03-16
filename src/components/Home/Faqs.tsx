@@ -27,7 +27,7 @@ function Faqs():JSX.Element {
                         Is this on ethereum?
                         </summary>
 
-                        <div className="text-white mt-4 relative md:w-[80%]">
+                        <div className="text-white mt-4 relative md:w-[80%] sm:w-full">
                         Cyber outlaws would be available on Polygon - layer 2 scaling solution for the ethereum blockchain
                         </div>
                     </details>
@@ -36,7 +36,7 @@ function Faqs():JSX.Element {
                         When is the mint date?
                         </summary>
 
-                        <div className="text-white mt-4 md:w-[80%]">
+                        <div className="text-white mt-4 md:w-[80%]  sm:w-full">
                         TBA.
                         </div>
                     </details>
@@ -45,7 +45,7 @@ function Faqs():JSX.Element {
                         What is the mint price?
                         </summary>
 
-                        <div className="text-white mt-4 md:w-[80%]">
+                        <div className="text-white mt-4 md:w-[80%] sm:w-full">
                         TBA.
                         </div>
                     </details>
@@ -56,7 +56,7 @@ function Faqs():JSX.Element {
                         Whitelist benefits? What are they?
                         </summary>
 
-                        <div className="text-white mt-4 md:w-[80%]">
+                        <div className="text-white mt-4 md:w-[80%] sm:w-full">
                         Early Access. Cheaper Mint Price. 
                         </div>
                     </details>
@@ -65,7 +65,7 @@ function Faqs():JSX.Element {
                         How about for OG benefits?
                         </summary>
 
-                        <div className="text-white mt-4 md:w-[80%]">
+                        <div className="text-white mt-4 md:w-[80%] sm:w-full">
                         See how cheap the mint price for whitelisters is? It's even more cheaper when you're an OG + don't forget the early access perk.
                         </div>
                     </details>
@@ -74,7 +74,7 @@ function Faqs():JSX.Element {
                         Perks for the holders?
                         </summary>
 
-                        <div className="text-white mt-4 md:w-[80%]">
+                        <div className="text-white mt-4 md:w-[80%] sm:w-full">
                         Have a look at our <button onClick={() => router.push('/roadmap')} className="text-gold-500">roadmap</button>, it pretty much answers most if not all the questions regarding holder's perks. Not satisfied? Send us a message in <button onClick={() => router.push('https://discord.gg/NUfD4xQHnP')} className="text-gold-500">discord</button>.
                         </div>
                     </details>
