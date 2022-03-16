@@ -7,6 +7,7 @@ import Hero from '../components/Home/Hero';
 import Trivia from '../components/Home/Trivia';
 import Project from '../components/Home/Project';
 import Vision from '../components/Home/Vision';
+import Faqs from '../components/Home/Faqs';
 import Footer1 from '../components/Footer1';
 import Head from 'next/head'
 
@@ -23,6 +24,7 @@ function Home():JSX.Element {
       <Trivia></Trivia>
       <Project></Project>
       <Vision></Vision>
+      <Faqs></Faqs>
       <Footer1></Footer1>
     </>
   )
